@@ -14,7 +14,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "compile": "node_modules/.bin/browserify index.js | node_modules/.bin/uglifyjs > dist/escape-string-regexp.js "
+    "compile": "node_modules/.bin/browserify index.js --standalone strToRegExp | node_modules/.bin/uglifyjs > dist/escape-string-regexp.js "
   },
   "files": [
     "index.js"
