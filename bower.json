@@ -1,7 +1,7 @@
 {
   "name": "escape-string-regexp",
   "main": "dist/escape_string_regexp.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/percona/escape-string-regexp",
   "authors": [{
 	"name": "Sindre Sorhus",
