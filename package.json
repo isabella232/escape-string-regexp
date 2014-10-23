@@ -13,7 +13,8 @@
     "node": ">=0.8.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "compile": "node_modules/.bin/browserify index.js | node_modules/.bin/uglifyjs > dist/escape-string-regexp.js "
   },
   "files": [
     "index.js"
@@ -31,6 +32,8 @@
     "characters"
   ],
   "devDependencies": {
-    "mocha": "*"
+    "browserify": "^6.1.0",
+    "mocha": "*",
+    "uglify-js": "^2.4.15"
   }
 }
