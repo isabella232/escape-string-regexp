@@ -21,6 +21,18 @@ var escapedString = escapeStringRegexp('how much $ for a unicorn?');
 new RegExp(escapedString);
 ```
 
+## Browser use
+
+```html
+   <script src="dist/escape_string_regexp.js"></script>
+```
+
+### Compile new version to the browser
+
+```sh
+npm install
+npm run compile
+```
 
 ## License
 
